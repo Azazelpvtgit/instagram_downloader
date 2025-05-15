@@ -1,0 +1,34 @@
+# Environment variables
+.env
+
+# Downloaded media files
+media/
+
+# Python cache and virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# MongoDB related files
+*.ns
+*.mongodb
+/data/db/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+logs/
+
+# macOS files
+.DS_Store
+
+# Instaloader session files
+*.json
